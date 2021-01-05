@@ -18,14 +18,15 @@ html {
 }
 
 
-a:link 
-{ 
- text-decoration:none; 
-} 
-#activites h2{
+a:link {
+  text-decoration: none;
+}
+
+#activites h2 {
   text-align: center;
   font-size: medium;
 }
+
 /* Scroll top button */
 #button {
   display: inline-block;
@@ -37,12 +38,13 @@ a:link
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s, 
+  transition: background-color .3s,
     opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
 }
+
 #button::after {
   content: "\f077";
   font-family: FontAwesome;
@@ -52,13 +54,16 @@ a:link
   line-height: 50px;
   color: #fff;
 }
+
 #button:hover {
   cursor: pointer;
   background-color: #333;
 }
+
 #button:active {
   background-color: #555;
 }
+
 #button.show {
   opacity: 1;
   visibility: visible;
@@ -66,8 +71,8 @@ a:link
 
 
 
-.button a{
-  color:white;
+.button a {
+  color: white;
   font-size: medium;
 }
 
@@ -81,23 +86,27 @@ a:link
   color: #6c767a;
   line-height: 1.9;
 }
+
 @media (min-width: 500px) {
   .content {
     width: 43%;
   }
+
   #button {
     margin: 30px;
   }
 }
+
 .content h1 {
   margin-bottom: -10px;
   color: #03a9f4;
   line-height: 1.5;
 }
+
 .content h3 {
   font-style: italic;
   color: #96a2a7;
-}  
+}
 
 
 
@@ -150,13 +159,15 @@ th
   background-size: cover;
   background-position: center center;
   border-radius: 10px;
-  transition: 0.3s;}
+  transition: 0.3s;
+}
+
 .container_image:hover {
-  -webkit-box-shadow: 3px 3px 6px 5px #6D6D6D; 
+  -webkit-box-shadow: 3px 3px 6px 5px #6D6D6D;
   box-shadow: 3px 3px 6px 5px #6D6D6D;
   transition: 0.2s;
 
-  }
+}
 
 a {
   color: black;
@@ -775,7 +786,7 @@ input[type="button"].small,
 }
 
 #main {
-  padding: 6em 0;
+  padding: 2em 0;
 }
 
 #main .sidebar .major {
