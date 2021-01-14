@@ -241,6 +241,36 @@
 
 </html>
 </section>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script>
+		
+		var url = window.location.href;
+		var rec = "";
+		var i = 0;
+		var myLoc = document.getElementById('mbsr');
+		var x = myLoc.offset();
+		x = x.top;
+
+
+		while (i < url.length && url[i + 1] != '#') {
+			i++;
+		}
+
+		i++;
+
+		while (i < url.length) {
+			rec += url[i];
+			i++;
+		}
+
+		if (rec == "#mbsr") {
+			
+			alert(x);
+
+			window.scrollTo(0, x);  
+		} 
+
+</script>
 <section id="mbsr">
 	<!-- Main -->
 	<div id="main" class="wrapper style2">
